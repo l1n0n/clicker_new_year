@@ -12,6 +12,7 @@ active_page, shop_page, settings_page, coefficient = mainpage, 0, 0, 1
 
 
 def click():
+    global score
     score += coefficient
     label_score['text'] = str(score)
 
